@@ -31,6 +31,10 @@ int removeDuplicates( int A[], int n )
 	return index + 1;*/
 }
 
+
+
+
+
 int main()
 {
 	int n;
