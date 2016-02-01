@@ -32,6 +32,11 @@
 			<td>就诊日期:</td>
 			<td>${dicomfile.getStudyDate()}</td>
 		</tr>
+		<tr>
+		<td>
+		${dicomimage}
+		</td>
+		</tr>
 	</table>
 </body>
 </html>

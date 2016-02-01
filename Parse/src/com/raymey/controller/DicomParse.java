@@ -58,6 +58,7 @@ public class DicomParse {
 							: attributes.getString(Tag.WindowWidth));
 			dicomInputStream.close();
 
+			//attributes.setString(Tag.WindowCenter, vr, s);
 			Iterator<ImageReader> iterator = ImageIO
 					.getImageReadersByFormatName("DICOM");
 			ImageReader imageReader = (ImageReader) iterator.next();
